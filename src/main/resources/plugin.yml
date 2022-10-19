@@ -1,0 +1,6 @@
+name: Uhc Randoum
+version: '${project.version}'
+main: fr.ziedelth.uhcrandoum.UhcRandoum
+api-version: 1.19
+authors: [ Ziedelth ]
+website: https://ziedelth.fr/
