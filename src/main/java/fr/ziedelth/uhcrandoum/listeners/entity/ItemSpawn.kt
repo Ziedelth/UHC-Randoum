@@ -20,7 +20,7 @@ class ItemSpawn : Listener {
             return
         }
 
-        val replacedItem = GameManager.materials[itemStack.type]?.toItemStack()
-        replacedItem?.let { event.entity.itemStack = it }
+        val replacedItem = GameManager.materials[itemStack.type]?.toItemStack() ?: return
+        event.entity.itemStack = replacedItem
     }
 }
