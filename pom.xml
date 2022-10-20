@@ -8,7 +8,7 @@
     <artifactId>uhc-randoum</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
-
+    <url>https://ziedelth.fr/</url>
     <name>Uhc Randoum</name>
 
     <properties>
@@ -16,7 +16,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <kotlin.version>1.7.20</kotlin.version>
     </properties>
-    <url>https://ziedelth.fr/</url>
 
     <build>
         <plugins>
