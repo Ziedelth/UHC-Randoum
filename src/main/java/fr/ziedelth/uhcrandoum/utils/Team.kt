@@ -3,7 +3,12 @@ package fr.ziedelth.uhcrandoum.utils
 import org.bukkit.ChatColor
 import org.bukkit.DyeColor
 
-enum class Team(val teamName: String, val chatColor: ChatColor, val prefix: String? = null, val dyeColor: DyeColor? = null) {
+enum class Team(
+    val teamName: String,
+    val chatColor: ChatColor,
+    val prefix: String? = null,
+    val dyeColor: DyeColor? = null
+) {
     BLACK("Noir", ChatColor.BLACK, dyeColor = DyeColor.BLACK),
     RED("Rouge", ChatColor.RED, dyeColor = DyeColor.RED),
     GREEN("Vert", ChatColor.GREEN, dyeColor = DyeColor.GREEN),

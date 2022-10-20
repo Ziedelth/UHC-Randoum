@@ -15,6 +15,7 @@ class Brew : Listener {
             Material.GHAST_TEAR, Material.GLISTERING_MELON_SLICE, Material.GLOWSTONE_DUST -> {
                 event.isCancelled = true
             }
+
             else -> return
         }
     }
