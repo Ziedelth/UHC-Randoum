@@ -1,5 +1,6 @@
 package fr.ziedelth.uhcrandoum.extensions
 
+import fr.ziedelth.uhcrandoum.utils.Team
 import org.bukkit.Bukkit
 import org.bukkit.Location
 import org.bukkit.Sound
@@ -29,4 +30,5 @@ class UHCPlayer(private val player: Player) {
     var isDead = false
     var deathLocation: Location? = null
     var kills = 0
+    var team: Team? = null
 }
